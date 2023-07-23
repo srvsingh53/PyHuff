@@ -8,6 +8,13 @@ The project enables you to compress and decompress text files using Huffman Codi
 
 Huffman Coding works by assigning variable-length codes to input characters based on their frequencies. Characters that occur more frequently receive shorter codes, resulting in efficient data compression.
 
+## Implemented Data Structures
+
+1. Huffman Tree
+2. Min Heap(Priority_Queue)
+3. Frequency Dictionary
+4. Code Dictionary
+
 ## Usage
 
 ### Run the compression and decompression:
@@ -23,4 +30,8 @@ Huffman Coding works by assigning variable-length codes to input characters base
        python main.py decompress /path/to/your/compressed_file.bin
      
        The decompressed text file will be saved as /path/to/your/compressed_file_decompressed.txt.
+
+## Dependencies
+
+The project has no external dependencies other than Python's standard library.
 
